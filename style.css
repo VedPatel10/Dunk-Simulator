@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+canvas {
+  border: black 3px solid;
+  padding: 0;
+  margin: auto;
+  display: block;
+  position: absolute;
+  top: 4vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font: 10vh solid black;
+  text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#startButton {
+  padding: 0;
+  margin: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 15vh;
+  left: 0;
+  right: 0;
+  height: 12vh;
+  width: 30vh;
+  font-size: 4.5vh
+}
+
+#instructionsButton {
+  padding: 0;
+  margin: auto;
+  display: block;
+  position: absolute;
+  top: 15vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 12vh;
+  width: 30vh;
+  font-size: 4.5vh
+}
+
+button, #buttonClass {
+  transition: background-color .4s;
+}
+button:hover, .buttonClass{
+  background-color: rgb(243, 198, 113);
+
+}
+
+button:active {
+  transition: background-color .1s;
+  background-color: rgb(247, 177, 49);
+}
+
+
+p {
+  text-align: center;
+  padding: 0;
+  margin: auto;
+  display: none;
+  position: absolute;
+  top: 65vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 1.8vw
+}
+
+#img {
+  width: 100px;
+  height: 18px;
+}
